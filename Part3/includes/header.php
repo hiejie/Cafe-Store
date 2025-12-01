@@ -10,191 +10,7 @@ $tagline = "Sip.Relax.Repeat";
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?=$cafeName?></title>
     
-    <style>
-        body {
-            display: flex;
-            flex-direction: column;
-            min-height: 100vh;
-            margin: 0;
-            font: bold 14px/1.4 'Open Sans', arial, sans-serif;
-            background: #130d06;
-            color: #664b38;
-            padding: 0 20px;
-            line-height: 1.6;
-        }
-        main {
-            flex: 1;
-        }
-        /*--- HEADER ---*/
-        header {
-            background-color: #bfa67a;
-            padding: 6px 10px;
-            color: #fff;
-            text-align: center;
-            font-size: 1rem;
-            font-weight: 500;
-            border-bottom-left-radius: 12px;
-            border-bottom-right-radius: 12px;
-            box-shadow: 0 3px 6px rgba(175, 138, 81, 0.1);
-        }
 
-        header p {
-            font-size: 1rem;
-            margin-top: 8px;
-            font-style: italic;
-            color: #f4eee6;
-        }
-
-        /*--- HEADINGS ---*/
-        h1 {
-            color: #fffbf9;
-            margin-bottom: 12px;
-            font-size: 2rem;
-            margin-top: 10px;
-        }
-
-        h2 {
-            font-size: 1.5rem;
-            margin-top: 20px;
-            color: rgb(252, 245, 245);
-            background-color: rgb(128, 107, 51);
-            padding: 20px;
-        }
-
-
-        p {
-            font-size: 1rem;
-            margin-bottom: 15px;
-            color: rgba(241, 232, 218, 0.911);
-        }
-
-        /*--- TABLES ---*/
-        table {
-            width: 50%;
-            border-collapse: collapse;
-            margin-top: 10px;
-        }
-
-        th, td {
-            border: 1px solid #0f0f0f;
-            padding: 12px 10px;
-            text-align: left;
-            border-radius: 10px;
-        }
-
-        th {
-            background: #725c3c;
-            color: #0c0a07;
-            font-weight: 500;
-        }
-
-        td {
-            background: #fff8f2;
-        }
-
-        /*--- MENU ---*/
-        .menu-box {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            gap: 20px;
-            margin: 20px 0;
-        }
-
-        .menu-box.reverse {
-            flex-direction: row-reverse;
-        }
-
-        .menu-box img {
-            width: 300px;
-            height: auto;
-            border-radius: 12px;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.12);
-            margin-right: 5rem;
-        }
-
-        .menu-box table {
-            width: 80%;
-        }
-
-        /*--- ORDER FORM ---*/
-        form {
-            background: #fff;
-            padding: 20px;
-            width: 350px;
-            border-radius: 10px;
-            box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
-        }
-
-        .form-box{
-            display:flex;
-            flex-direction:column;
-            justify-content:center;
-            align-items:center;
-        }
-
-        label {
-            font-weight: bold;
-            color: #5a3e2b;
-        }
-
-        select, input[type="number"] {
-            width: 100%;
-            padding: 8px;
-            border: 1px solid #c9b19f;
-            border-radius: 5px;
-            margin-top: 5px;
-            font-size: 16px;
-            background: #fff9f3;
-        }
-
-        /*--- BUTTONS ---*/
-        button {
-            background: #774e28ff;
-            color: #fff;
-            padding: 10px 15px;
-            margin-top: 15px;
-            border: none;
-            border-radius: 5px;
-            font-size: 16px;
-            cursor: pointer;
-          
-      
-        }
-
-
-
-        button:hover {
-            background: #6e4931;
-        }
-
-        /*--- ORDER SUMMARY ---*/
-        .order-summary {
-            background: #fff;
-            padding: 20px;
-            width: 350px;
-            border-radius: 10px;
-            margin-top: 20px;
-            box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
-        }
-
-        .order-summary p {
-            margin: 8px 0;
-        }
-
-        /*--- FOOTER ---*/
-        footer {
-            text-align: center;
-            color: #f7f4f1;
-            background-color: #70644f;
-            padding: 5px 0;
-            border-top-left-radius: 12px;
-            border-top-right-radius: 12px;
-            box-shadow: 0 -3px 6px rgba(0,0,0,0.1);
-            font-weight: 500;
-            margin-top: 40px;
-        }
-    </style>
 </head>
 
 <header>
@@ -202,5 +18,14 @@ $tagline = "Sip.Relax.Repeat";
         <p> <?=$tagline?></p>
 
 </header>
+
+<body>
+    <div class="menu-container">
+        <nav class="menu-bar">
+            <a href="Menu.php">Menu</a> |   
+            <a href="stock.php">Stocks</a> |
+        </nav>
+    </div>
+</body>
 
 
