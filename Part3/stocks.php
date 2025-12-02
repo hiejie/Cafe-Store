@@ -11,7 +11,9 @@ $products = [
     "Matcha" => ["price" => 150, "stock" => 20],
     "Croissant" => ["price" => 85, "stock" => 12],
     "Cheese Bread" => ["price" => 75, "stock" => 5],
-    "Garlic Bread Toast"=> ["price" => 80, "stock" => 1]
+    "Garlic Bread Toast"=> ["price" => 80, "stock" => 1],
+    "Banana Bread"=> ["price" => 80, "stock" => 5],
+    "Breadstick"=> ["price" => 50, "stock" => 10]
 ];
 
 // GLOBAL TAX RATE
