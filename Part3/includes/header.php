@@ -22,8 +22,8 @@ $tagline = "Sip.Relax.Repeat";
 <body>
     <div class="menu-container">
         <nav class="menu-bar">
-            <a href="Menu.php">Menu</a> |   
-            <a href="stocks.php">Stocks</a> |
+            <a href="Module3.php">Menu</a> |   
+            <a href="stocks.php">Stocks</a> 
         </nav>
     </div>
 </body>

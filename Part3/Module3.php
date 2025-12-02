@@ -18,6 +18,7 @@
 ];
   
     $menu = array_merge($drinks, $pastries);
+    
 
     $selectedItem = "";
     $quantity = 1;
@@ -126,7 +127,7 @@ if (isset($_POST['order'])) {
         <p><b>Total: ₱<?= $totalCost ?></b></p>
     <?php endif; ?>
 
-    <button class="reset-button" onclick="window.location.href='Menu.php'">Reset</button>
+    <button class="reset-button" onclick="window.location.href='Module3.php'">Reset</button>
 
     </div>
     </main>
